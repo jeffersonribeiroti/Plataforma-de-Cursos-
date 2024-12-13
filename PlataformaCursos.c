@@ -6,6 +6,7 @@
 #define TAM 50
 
 typedef struct{
+    
     char docente [30];
     char curso [30];
     int periodos;
@@ -18,6 +19,7 @@ printf("==============================");
 } 
 
 int main() {
+    int id;
     int opcao;
     Elemento elementos[TAM];
     int periodos = 0;
