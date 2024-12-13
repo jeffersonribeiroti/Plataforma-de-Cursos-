@@ -8,7 +8,7 @@
 typedef struct{
     
     char docente [30];
-    char curso [30];
+    char Nomecurso [30];
     int periodos;
     char modalidade [30];
     float Notacorte;
